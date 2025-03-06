@@ -16,6 +16,7 @@
 📁phalangesoutlinescorrect_bsmote.ipynb
 
 시계열 방식이 아닌 데이터 증폭 방법인 SMOTE(Synthetic Minority Over-sampling Technique)를 사용하여 데이터를 증폭시키고, 이후 DTW와 KNN을 적용하여 예측을 수행합니다.
+
 수정 사항: compute_dtw_matrix 함수에서 y_train_resampled을 X1 또는 X2로 전달하는 부분에서 오류가 발생했습니다. 이를 train_dtw_matrix = compute_dtw_matrix(X_train_resampled, X_train_resampled)로 수정하였습니다. 이 수정으로 문제를 해결했습니다.
 
 
