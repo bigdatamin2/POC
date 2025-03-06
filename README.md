@@ -3,6 +3,7 @@
 본 실험은 PhalangesOutlinesCorrect 데이터셋에서 특정 비율로 샘플링을 수행한 결과입니다. 해당 데이터셋은 이진 분류 문제이며, 클래스 불균형을 고려하여 클래스별로 서로 다른 비율의 샘플링을 진행하였습니다.
 
 📁phalangesoutlinescorrect_makedata.ipynb
+
 원본데이터를 업로드하고 데이터 크기 축소해주기(Sample Data 생성)
 
 📁phalangesoutlinescorrect_basic.ipynb
